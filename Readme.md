@@ -2,7 +2,7 @@
 *Files to look at*:
 
 * [Form1.cs](./CS/Form1.cs) (VB: [Form1.vb](./VB/Form1.vb))
-* **[MyDataSet.cs](./CS/MyDataSet.cs) (VB: [MyDataSet.vb](./VB/MyDataSet.vb))**
+* **[MySqlDataSource.cs](./CS/MySqlDataSource.cs) (VB: [MySqlDataSource.vb](./VB/MySqlDataSource.vb))**
 <!-- default file list end -->
 # How to provide custom names for the Field List data items
 
