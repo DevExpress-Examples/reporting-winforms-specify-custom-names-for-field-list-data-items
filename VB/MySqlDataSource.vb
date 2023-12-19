@@ -1,12 +1,12 @@
-#Region "Usings"
+'#Region "#Usings"
 Imports DevExpress.Data
 Imports DevExpress.DataAccess.Sql
 
 ' ...
-#End Region
+'#End Region  ' #Usings
 Namespace docCustomDataItemsNames
 
-#Region "SqlDataSource"
+'#Region "#SqlDataSource"
     Public Class MySqlDataSource
         Inherits SqlDataSource
         Implements IDisplayNameProvider
@@ -63,4 +63,5 @@ Namespace docCustomDataItemsNames
         End Function
     ' ...
     End Class
-#End Region 
+'#End Region  ' #SqlDataSource
+End Namespace
