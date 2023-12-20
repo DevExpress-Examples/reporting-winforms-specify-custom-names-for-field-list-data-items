@@ -1,12 +1,7 @@
-#Region "#Usings"
 Imports DevExpress.Data
 Imports DevExpress.DataAccess.Sql
 
-' ...
-#End Region  ' #Usings
 Namespace docCustomDataItemsNames
-
-#Region "#SqlDataSource"
     Public Class MySqlDataSource
         Inherits SqlDataSource
         Implements IDisplayNameProvider
@@ -18,7 +13,6 @@ Namespace docCustomDataItemsNames
             LoadFromXml(copyFrom.SaveToXml())
         End Sub
 
-        ' ...
         Private Function GetDataSourceDisplayName() As String Implements IDisplayNameProvider.GetDataSourceDisplayName
             ' Substitute the default datasource display name
             ' with a custom one.
@@ -61,7 +55,5 @@ Namespace docCustomDataItemsNames
 
             Return result
         End Function
-    ' ...
     End Class
-#End Region  ' #SqlDataSource
 End Namespace

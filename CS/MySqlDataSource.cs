@@ -1,14 +1,9 @@
-﻿#region #Usings
-using System;
+﻿using System;
 using DevExpress.Data;
 using DevExpress.DataAccess.Sql;
-// ...
-#endregion #Usings
 
 namespace docCustomDataItemsNames
 {
-
-    #region #SqlDataSource
     public class MySqlDataSource : SqlDataSource, IDisplayNameProvider
     {
         public MySqlDataSource() {
@@ -17,8 +12,6 @@ namespace docCustomDataItemsNames
         public MySqlDataSource(SqlDataSource copyFrom) {
             this.LoadFromXml(copyFrom.SaveToXml());
         }
-
-        // ...
         string IDisplayNameProvider.GetDataSourceDisplayName() {
             // Substitute the default datasource display name
             // with a custom one.
@@ -61,7 +54,5 @@ namespace docCustomDataItemsNames
             }
             return result;
         }
-        // ...
     }
-    #endregion #SqlDataSource
 }
