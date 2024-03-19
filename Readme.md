@@ -3,7 +3,7 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E459)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-# How to provide custom names for the Field List data items
+# Reporting for WinForms - How to provide custom names for the Field List data items
 
 This example demonstrates how to use the `IDisplayNameProvider` interface to change the names of the Field List items shown in both the Visual Studio and End-User report designers. 
 
